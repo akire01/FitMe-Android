@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".ExerciseDetailFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muscles:"
+            android:textColor="@color/darker_gray"
+            android:textSize="@dimen/details_title_size" />
+
+        <TextView
+            android:id="@+id/text_view_muscles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/details_items_size"
+            tools:text="These are the muscles" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:text="Equipment:"
+            android:textColor="@color/darker_gray"
+            android:textSize="@dimen/details_title_size" />
+
+        <TextView
+            android:id="@+id/text_view_equipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/details_items_size"
+            tools:text="These are the muscles" />
+
+        <TextView
+            android:id="@+id/text_view_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textSize="@dimen/details_items_size"
+            tools:text="These are the muscles" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonAddExercise"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:background="@drawable/button_custom_theme"
+            android:text="@string/button_add"
+            android:textSize="@dimen/button_text_size"
+            tools:visibility="visible"
+            android:visibility="invisible"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+</ScrollView>

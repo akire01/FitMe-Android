@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/myExercisesFragment">
+    <fragment
+        android:id="@+id/allExercisesFragment"
+        android:name="e.raguz.fitme.AllExercisesFragment"
+        android:label="@string/nav_graph_all_exercises"
+        tools:layout="@layout/fragment_all_exercises" />
+    <fragment
+        android:id="@+id/myExercisesFragment"
+        android:name="e.raguz.fitme.MyExercisesFragment"
+        android:label="@string/nav_graph_my_exercises"
+        tools:layout="@layout/fragment_my_exercises" />
+
+    <fragment
+        android:id="@+id/exerciseDetailFragment"
+        android:name="e.raguz.fitme.ExerciseDetailFragment"
+        android:label="@string/nav_graph_details"
+        tools:layout="@layout/fragment_exercise_detail">
+        <argument
+            android:name="exerciseId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/exercisesListFragment"
+        android:name="e.raguz.fitme.ExerciseListFragment"
+        android:label="@string/nav_graph_exercise_list"
+        tools:layout="@layout/fragment_exercises_list" />
+    <action android:id="@+id/action_global_exerciseDetailFragment" app:destination="@id/exerciseDetailFragment" />
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="e.raguz.fitme.ToDoFragment"
+        android:label="fragment_to_do"
+        tools:layout="@layout/fragment_to_do" />
+    <fragment
+        android:id="@+id/doneFragment"
+        android:name="e.raguz.fitme.DoneFragment"
+        android:label="fragment_done"
+        tools:layout="@layout/fragment_done" />
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="e.raguz.fitme.TimerFragment"
+        android:label="fragment_timer"
+        tools:layout="@layout/fragment_timer" >
+        <argument
+            android:name="minutes"
+            app:argType="integer" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <action android:id="@+id/action_global_timerFragment" app:destination="@id/timerFragment" />
+</navigation>

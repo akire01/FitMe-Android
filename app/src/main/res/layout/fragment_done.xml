@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoneFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:text="Your Progress:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text_progress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        tools:text="60%" />
+
+    <ImageView
+        android:id="@+id/iv_progress"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/go" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/doneRecyclerView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+
+</LinearLayout>

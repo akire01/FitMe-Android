@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FitMe</string>
+    <string name="connect_message">Please connect to the Internet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_exercises">All Exercises</string>
+    <string name="my_exercises">My Exercises</string>
+    <string name="quotes">Quotes</string>
+    <string name="nav_graph_quotes">Quotes</string>
+    <string name="nav_graph_my_exercises">My Exercises</string>
+    <string name="nav_graph_all_exercises">All Exercises</string>
+    <string name="title_text">Triceps dips</string>
+    <string name="exercise_desc">Description of exercise</string>
+    <string name="nav_graph_exercise_list">Exercise List</string>
+    <string name="nav_graph_details">Exercise Details</string>
+    <string name="button_add">Add</string>
+    <string name="dialog_title_notification">Scheduled Progress Notification</string>
+    <string name="dialog_ok">OK</string>
+    <string name="min">min</string>
+    <string name="go">GO</string>
+    <string name="restartText">Restart</string>
+    <string name="startText">start</string>
+    <string name="pauseText">Pause</string>
+    <string name="notificationTitle">Your progress for today</string>
+    <string name="time_10AM">10 AM</string>
+    <string name="time_16PM">16 PM</string>
+    <string name="time_21PM">21 PM</string>
+    <string name="time_5sec">5 seconds from now</string>
+    <string name="dayPref">DayPref</string>
+    <string name="key_day">day</string>
+    <string name="date_format">dd/M/yyyy</string>
+    <string name="myPref">MyPref</string>
+    <string name="message_Done">DONE!</string>
+    <string name="message_Resume">Resume</string>
+    <string name="message_Pause">Pause</string>
+    <string name="title_all_Exercises">All Exercises</string>
+    <string name="title_done_exercises">Done Exercises</string>
+    <string name="category_id">id</string>
+    <string name="default_value">1</string>
+    <string name="title_my_exercises">My Exercises</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="corner_radius">6dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="info_size">14sp</dimen>
+    <dimen name="info_margin_top">4dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="description_size">18sp</dimen>
+    <dimen name="details_items_size">17sp</dimen>
+    <dimen name="details_title_size">23sp</dimen>
+    <dimen name="padding_top">10sp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="exercise_name_margin_bottom">8dp</dimen>
+    <dimen name="button_width">130dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_margin_top">40dp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="BtnStartMarginLeft">20dp</dimen>
+    <dimen name="BtnRestartMarginRight">20dp</dimen>
+</resources>
