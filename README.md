@@ -15,7 +15,7 @@ Each new day, exercises from the "My Exercises" list are deleted and the user ca
 I have used:
 •	Broadcast Receiver
 •	Bottom Navigation
-•	Retrofit, gson format
+•	Retrofit, gson 
 •	Room
 •	SharedPreferences
 •	Splash Screen
