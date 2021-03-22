@@ -23,12 +23,10 @@ abstract class ExercisesDatabase : RoomDatabase() {
                 synchronized(ExercisesDatabase::class.java) {
                     if (INSTANCE == null) {
                         INSTANCE = Room.databaseBuilder(context.applicationContext, ExercisesDatabase::class.java, DB_NAME)
-                            //.allowMainThreadQueries() // Uncomment if you don't want to use RxJava or coroutines just yet (blocks UI thread)
                             .addCallback(object : Callback() {
                                 override fun onCreate(db: SupportSQLiteDatabase) {
                                     super.onCreate(db)
                                     Log.d("ExercisesDatabase", "making...")
-                                    //GlobalScope.launch(Dispatchers.IO) { rePopulateDb(INSTANCE) }
                                 }
                             }).build()
                     }
